@@ -3,8 +3,6 @@ import time
 import discord
 from pymongo import MongoClient
 
-url = 'http://127.0.0.1:3000'
-
 with open('config.json') as json_file:
     data = json.load(json_file)
 
